@@ -1,7 +1,7 @@
 
 .App{
   width: 350px;
-  height: 780px;
+  height: 900px;
   background: #1A1B21;
   position: relative;
   border-radius: 20px;
@@ -10,12 +10,11 @@
 }
 
 .Image{
-  width: 300px;
-  margin-left: 25px;
-  height: 300px;
+  width: 350px;
+  height: 317px;
   position: relative;
-  border-radius: 70%;
-  top: 20px;
+  border-radius: 20px 20px 0 0;
+  
 }
 
 .Contact {
@@ -30,3 +29,131 @@
   bottom: 0;
 }
 
+.Name {
+  color: #FFF;
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  height: 25.806px;
+  text-align: center;
+  flex-shrink: 0;
+  margin-top: 21px;
+
+}
+
+.Role {
+  color : #F3BF99;
+  font-family: "Inter", sans-serif;
+  font-size: 12.8;
+  text-align: center;
+  flex-shrink: 0;
+  margin-top: 3px;
+  height: 14.194px;
+}
+
+.Website {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  margin-top: 17px;
+  font-style: normal;
+  padding-bottom: 17px;
+
+}
+
+.Website a {
+  color: #F5F5F5;
+  text-decoration: none;
+}
+
+.EmailBox {
+  width: 247px;
+  margin: auto;
+  display: flex;
+  width: 247px;
+  padding: 9px 13px 9px 11px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid var(--gray-300, #D1D5DB);
+  background: var(--white, #FFF);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+.Email-logo{
+  width: 26px;
+  height: 19px;
+  flex-shrink: 0;
+}
+
+
+
+.Email{
+  color: var(--gray-700, #374151);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; 
+}
+
+.About {
+  margin-top: 25px;
+}
+
+.About-title{
+  color: #F5F5F5;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+  width: 242.712px;
+  height: 21px;
+  flex-shrink: 0;
+  margin-left: 37px;
+  line-height: 150%;
+}
+
+.About-content{
+  margin-top: 10px;
+  color: #DCDCDC;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 15.36px */
+  margin-left: 37px;
+  margin-right: 50px;
+}
+
+.Interest {
+  margin-top: 25px;
+}
+.Interest-title{
+  color: #F5F5F5;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+  width: 242.712px;
+  height: 21px;
+  flex-shrink: 0;
+  margin-left: 37px;
+  line-height: 150%;
+}
+
+.Interest-content{
+  margin-top: 10px;
+  color: #DCDCDC;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 15.36px */
+  margin-left: 37px;
+  margin-right: 50px;
+}

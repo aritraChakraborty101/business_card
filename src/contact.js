@@ -11,7 +11,7 @@ function ContactSection() {
     return (
         <div className="Contact">
             <div className="Twitter-logo">
-                <a href="https://twitter.com/">
+                <a href="https://x.com/significantBug">
                     <img src={TwitterIcon} alt="Twitter" />
                 </a>
             </div>
@@ -21,17 +21,17 @@ function ContactSection() {
                 </a>
             </div>
             <div className="Instagram-logo">
-                <a href="https://www.instagram.com/">
+                <a href="https://www.instagram.com/aritra148/">
                     <img src={InstagramIcon} alt="Instagram" />
                 </a>
             </div>
             <div className="LinkedIn-logo">
-                <a href="https://www.linkedin.com/">
+                <a href="https://www.linkedin.com/in/aritra-chakraborty-555715228/">
                     <img src={LinkedInIcon} alt="LinkedIn" />
                 </a>
             </div>
             <div className = "GitHub-logo">
-                <a href="">
+                <a href="https://github.com/aritraChakraborty101">
                     <img src={GitHubIcon} alt="GitHub" />
                 </a>
             </div>
